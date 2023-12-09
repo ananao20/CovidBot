@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap">
+    <title>CovidBot</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: aliceblue; 
+        }
+
+        header {
+            width: 100%;
+            /* background-color: #3498db;  */
+            background-color:darkorange;
+            padding: 20px 0; 
+            text-align: center;
+        }
+
+        .header-text {
+            /* font-family: 'Helvetica', cursive, sans-serif;  */
+            font-family: 'PT Serif', serif; 
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff; 
+        }
+
+        iframe {
+            width: 450px;
+            height: 530px;
+            border-style: solid;
+            border-color: aliceblue;
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-text">Covid-19 Chatbot</div>
+    </header>
+    <iframe allow="microphone"
+        src="https://console.dialogflow.com/api-client/demo/embedded/89f1ac4c-3a13-472e-838e-4519af517f8f"></iframe>
+</body>
+
+</html>
+
+
